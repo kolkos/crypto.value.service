@@ -1,0 +1,4 @@
+app:
+  currency: eur
+apis:
+  coin-value-api: https://www.bitstamp.net/api/v2/ticker/{{coin.symbol}}{{app.currency}}/
